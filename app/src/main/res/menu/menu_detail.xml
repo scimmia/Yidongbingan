@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jiayusoft.mobile.shengli.bingan.detail.DetailActivity" >
+    <item android:id="@+id/action_star"
+          android:icon="@drawable/ic_star_off"
+          android:title="@string/action_star"
+          android:orderInCategory="100"
+          android:checkable="true"
+          android:checked="false"
+          app:showAsAction="always" />
+    <item android:id="@+id/action_lock"
+          android:icon="@drawable/ic_lock_off"
+        android:title="@string/menu_lock"
+        android:orderInCategory="101"
+          app:showAsAction="always" />
+</menu>

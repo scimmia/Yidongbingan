@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jiayusoft.mobile.shengli.bingan.borrow.BorrowListActivity" >
+    <item android:id="@+id/action_notyet"
+        android:title="@string/action_notyet"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_accepted"
+          android:title="@string/action_accepted"
+          android:orderInCategory="101"
+          app:showAsAction="never" />
+    <item android:id="@+id/action_refused"
+          android:title="@string/action_refused"
+          android:orderInCategory="102"
+          app:showAsAction="never" />
+</menu>
