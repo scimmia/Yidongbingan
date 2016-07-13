@@ -16,6 +16,7 @@ public interface GlobalData {
     public static final String defaultNetErrorMsg = "网络连接错误，请检查网络或服务地址设置。";
 
 
+//    public static final String defaultServerUrl = "61.156.247.234:8880/mobile";聊城地址
     public static final String defaultServerUrl = "221.214.98.55:8880/mobile";
     public static final String innerServerUrl = "11.0.0.55:8880/mobile";
     public static final String serverUrl = "serverUrl";

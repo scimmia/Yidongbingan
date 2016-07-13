@@ -362,7 +362,7 @@ public class LoginActivity extends BaseActivity {
         try {
             PackageManager pm = getBaseActivity().getPackageManager();
             PackageInfo pi = pm.getPackageInfo(getBaseActivity().getPackageName(), 0);
-            versionTemp = pi.versionCode-1+"";
+            versionTemp = pi.versionCode+"";
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
         }
